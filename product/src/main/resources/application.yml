@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://ssg-java2.iptime.org:3306/techdb
+    username: tcat
+    password: 1111
