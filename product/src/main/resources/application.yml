@@ -1,8 +1,17 @@
+server:
+  port: 8001
+
 spring:
   application:
     name: product
+
+# driver config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    jdbc-url: jdbc:mysql://ssg-java2.iptime.org:3306/techdb
+    url: jdbc:mysql://ssg-java2.iptime.org:3306/techdb
     username: tcat
     password: 1111
+
+# mybatis config
+mybatis:
+  mapper-locations: mappers/**/*.xml
